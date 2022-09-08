@@ -1,6 +1,9 @@
-<h1>This is a MAIN page</h1>
-{% for product in products %}
-<ul>
-    <li>{{ product }}</li>
-</ul>
-{% endfor %}
+{% extends 'store/base.html' %}
+{% load static %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+
+
